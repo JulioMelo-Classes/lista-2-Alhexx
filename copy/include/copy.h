@@ -16,8 +16,15 @@ namespace graal {
 template<class InputIt>
 InputIt copy(InputIt first, InputIt last, InputIt d_first)
 {
-    // TODO
-    return first;
+    InputIt start=d_first;
+    InputIt First = first;
+    while(First!=last)
+    { 
+      *start=*First;
+      start++;
+      First++;
+    }
+    return ++start;
 }
 
 }
