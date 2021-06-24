@@ -1,4 +1,4 @@
-# Install script for directory: /home/runner/lpl2/lista-2-Alhexx/copy
+# Install script for directory: /home/runner/LP2/lista-2-Alhexx/copy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/runner/lpl2/lista-2-Alhexx/copy/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/runner/LP2/lista-2-Alhexx/copy/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

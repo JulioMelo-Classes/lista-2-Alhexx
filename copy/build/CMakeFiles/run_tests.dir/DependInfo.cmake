@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.cpp" "/home/runner/lpl2/lista-2-Alhexx/copy/build/CMakeFiles/run_tests.dir/home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.cpp.o"
-  "/home/runner/lpl2/lista-2-Alhexx/copy/src/main.cpp" "/home/runner/lpl2/lista-2-Alhexx/copy/build/CMakeFiles/run_tests.dir/src/main.cpp.o"
+  "/home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.cpp" "/home/runner/LP2/lista-2-Alhexx/copy/build/CMakeFiles/run_tests.dir/home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.cpp.o"
+  "/home/runner/LP2/lista-2-Alhexx/copy/src/main.cpp" "/home/runner/LP2/lista-2-Alhexx/copy/build/CMakeFiles/run_tests.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

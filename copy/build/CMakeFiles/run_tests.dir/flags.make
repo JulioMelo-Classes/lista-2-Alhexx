@@ -6,5 +6,5 @@ CXX_FLAGS = -Wall   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/runner/lpl2/lista-2-Alhexx/copy/include -I/home/runner/lpl2/lista-2-Alhexx/copy/../test_manager/include 
+CXX_INCLUDES = -I/home/runner/LP2/lista-2-Alhexx/copy/include -I/home/runner/LP2/lista-2-Alhexx/copy/../test_manager/include 
 

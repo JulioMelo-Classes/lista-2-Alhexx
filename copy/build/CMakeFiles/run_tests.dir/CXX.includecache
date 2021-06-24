@@ -28,7 +28,7 @@ iterator
 algorithm
 -
 
-/home/runner/lpl2/lista-2-Alhexx/copy/src/main.cpp
+/home/runner/LP2/lista-2-Alhexx/copy/src/main.cpp
 iostream
 -
 cassert
@@ -38,11 +38,11 @@ random
 iterator
 -
 test_manager.h
-/home/runner/lpl2/lista-2-Alhexx/copy/src/test_manager.h
+/home/runner/LP2/lista-2-Alhexx/copy/src/test_manager.h
 copy.h
-/home/runner/lpl2/lista-2-Alhexx/copy/src/copy.h
+/home/runner/LP2/lista-2-Alhexx/copy/src/copy.h
 
-/home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.cpp
+/home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.cpp
 test_manager.h
-/home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.h
+/home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.h
 

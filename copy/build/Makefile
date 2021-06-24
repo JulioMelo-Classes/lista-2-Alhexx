@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/runner/lpl2/lista-2-Alhexx/copy
+CMAKE_SOURCE_DIR = /home/runner/LP2/lista-2-Alhexx/copy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/runner/lpl2/lista-2-Alhexx/copy/build
+CMAKE_BINARY_DIR = /home/runner/LP2/lista-2-Alhexx/copy/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/lpl2/lista-2-Alhexx/copy/build/CMakeFiles /home/runner/lpl2/lista-2-Alhexx/copy/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/LP2/lista-2-Alhexx/copy/build/CMakeFiles /home/runner/LP2/lista-2-Alhexx/copy/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/lpl2/lista-2-Alhexx/copy/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/LP2/lista-2-Alhexx/copy/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ run_tests/fast:
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
 .PHONY : run_tests/fast
 
-home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.o: home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.cpp.o
+home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.o: home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.cpp.o
 
-.PHONY : home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.o
+.PHONY : home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.o
 
 # target to build an object file
-home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.cpp.o:
-	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.cpp.o
-.PHONY : home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.cpp.o
+home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.cpp.o:
+	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.cpp.o
+.PHONY : home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.cpp.o
 
-home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.i: home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.cpp.i
+home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.i: home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.cpp.i
 
-.PHONY : home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.i
+.PHONY : home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.i
 
 # target to preprocess a source file
-home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.cpp.i:
-	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.cpp.i
-.PHONY : home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.cpp.i
+home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.cpp.i:
+	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.cpp.i
+.PHONY : home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.cpp.i
 
-home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.s: home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.cpp.s
+home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.s: home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.cpp.s
 
-.PHONY : home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.s
+.PHONY : home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.s
 
 # target to generate assembly for a file
-home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.cpp.s:
-	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.cpp.s
-.PHONY : home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.cpp.s
+home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.cpp.s:
+	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.cpp.s
+.PHONY : home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -186,9 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run_tests"
 	@echo "... edit_cache"
-	@echo "... home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.o"
-	@echo "... home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.i"
-	@echo "... home/runner/lpl2/lista-2-Alhexx/test_manager/src/test_manager.s"
+	@echo "... home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.o"
+	@echo "... home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.i"
+	@echo "... home/runner/LP2/lista-2-Alhexx/test_manager/src/test_manager.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
