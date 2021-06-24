@@ -15,9 +15,25 @@ namespace graal {
  */
 template<class InputIt, class UnaryPredicate>
 bool all_of(InputIt first, InputIt last, UnaryPredicate p)
-{
-    // TODO
+{ 
+  InputIt First=first;
+  int dist=distance(first, last), aux=0;
+  if(first==last)
+  {
     return false;
+  }
+  while(First<last)
+  {
+    
+    if(p(*First))
+    {
+      aux+=1;
+    }
+    First++;
+  }
+  if(aux==dist) return true;
+  else return false;
+  
 }
 
 /*! 
@@ -26,8 +42,17 @@ bool all_of(InputIt first, InputIt last, UnaryPredicate p)
 template<class InputIt, class UnaryPredicate>
 bool any_of(InputIt first, InputIt last, UnaryPredicate p)
 {
-    // TODO
-    return false;
+  InputIt First=first;
+  while(First<last)
+  {
+    if(p(*First))
+    {
+      return true;
+    }
+    First++;
+  }
+  
+  return false;
 }
 
 /*! 
@@ -36,8 +61,19 @@ bool any_of(InputIt first, InputIt last, UnaryPredicate p)
 template<class InputIt, class UnaryPredicate>
 bool none_of(InputIt first, InputIt last, UnaryPredicate p)
 {
-    // TODO
-    return false;
+  InputIt First=first;
+  int dist=distance(first, last), aux=0;
+  while(First<last)
+  {
+    if(p(*First)==false)
+    {
+      aux+=1;
+    }
+    First++;
+  }
+  if(aux==dist) return true;
+  else return false;
+  
 }
 
 }
