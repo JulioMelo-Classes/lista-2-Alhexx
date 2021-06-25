@@ -32,7 +32,7 @@ int main ( void )
 
         auto result = which_lib::unique( std::begin(A), std::end(A),
                 []( const int& a, const int& b )->bool{ return a == b; } );
-
+        
         EXPECT_TRUE( std::equal( std::begin(A), result, std::begin(A_E) ));
     }
 
