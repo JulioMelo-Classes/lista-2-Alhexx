@@ -16,30 +16,32 @@ namespace graal {
 template<class ForwardIt, class UnaryPredicate>
 ForwardIt partition(ForwardIt first, ForwardIt last, UnaryPredicate p)
 {
-  ForwardIt First= first, teste = first, aux=first;
+  ForwardIt First1=first, First=first, aux=first;
   int tam=distance(first, last), cont=0;
-
-  while(First!=last)
+  while(First<last)
   {
-    if(!p(*First))
+    if(p(*First))
     {
-      teste=First;
-      while(teste != last-1)
+      
+      while(First1!=last-1)
       {
-        if(cont==tam)
-        {
-          return first;
-        }
-        swap(*teste, *(teste+1));
-        cont++;
-        teste++;
+        iter_swap(First1, (First1+1));
+        
+        First1++;
       }
-      aux=First-1;
+      aux++;
     }
-    else First++;
+    else
+    {
+      cont++;
+    }
+    
+    First1=First;
+    First++;
   }
-  
-  return aux;
+    
+    if(cont==tam) return first;
+    return aux;
 }
 
 }
