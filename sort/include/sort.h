@@ -7,7 +7,7 @@ using std::pair;
 using std::distance;
 #include <algorithm>
 using std::sort;
-
+using namespace std;
 namespace graal {
 
 /*! 
@@ -16,8 +16,17 @@ namespace graal {
 template<class ForwardIt, class Comparison>
 void sort(ForwardIt first, ForwardIt last, Comparison cmp)
 {
-    // TODO
+  for(ForwardIt i=first; i<last; i++)
+  {
+    for(ForwardIt j=i+1; j<last; j++)
+    {
+      if(!(*i<=*j))
+      {
+        iter_swap(i,j);
+      }
+    }
+  }
+}
 }
 
-}
 #endif
