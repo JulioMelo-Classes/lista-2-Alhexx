@@ -20,7 +20,7 @@ void sort(ForwardIt first, ForwardIt last, Comparison cmp)
   {
     for(ForwardIt j=i+1; j<last; j++)
     {
-      if(!(*i<=*j))
+      if(!(cmp(*i, *j) || (!cmp(*i, *j) && !cmp(*j, *i))))
       {
         iter_swap(i,j);
       }
