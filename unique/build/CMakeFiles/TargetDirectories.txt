@@ -1,3 +1,0 @@
-/home/runner/lpl2/lista-2-Alhexx/unique/build/CMakeFiles/rebuild_cache.dir
-/home/runner/lpl2/lista-2-Alhexx/unique/build/CMakeFiles/run_tests.dir
-/home/runner/lpl2/lista-2-Alhexx/unique/build/CMakeFiles/edit_cache.dir

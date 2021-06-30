@@ -1,3 +1,0 @@
-/home/runner/lpl2/lista-2-Alhexx/rotate/build/CMakeFiles/rebuild_cache.dir
-/home/runner/lpl2/lista-2-Alhexx/rotate/build/CMakeFiles/run_tests.dir
-/home/runner/lpl2/lista-2-Alhexx/rotate/build/CMakeFiles/edit_cache.dir

@@ -23,6 +23,9 @@ namespace graal {
  * @return Um std::pair contendo o menor e maior elemento, nesta ordem
  *
  */
+ /*
+ ok
+ */
 template <typename Itr, typename Compare >
 std::pair<Itr, Itr> minmax( Itr first, Itr last, Compare cmp )
 {
@@ -39,7 +42,9 @@ std::pair<Itr, Itr> minmax( Itr first, Itr last, Compare cmp )
     while(First<Last)
     {
       
-      if(cmp(*ma, *First) || (!cmp(*ma, *First) && !cmp(*First, *ma))) ma=First;
+      //essa condição ficou realmente confusa, mas eu entendi a ideia, uma coisa que vc poderia fazer era usar !cmp(*ma, *First), 
+      //como cmp(a,b) retorna true quando a < b, !cmp(a,b) retorna true quando a >= b
+      if(cmp(*ma, *First) || (!cmp(*ma, *First) && !cmp(*First, *ma))) ma=First; 
       if(cmp(*First, *mi)) mi=First;
       First++;
     }
